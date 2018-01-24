@@ -18,9 +18,9 @@
         <Label Content="用户名" Grid.Column="1" HorizontalAlignment="Center" Margin="5,5,5,5" Grid.Row="1" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="密 码" Grid.Column="1" HorizontalAlignment="Center" Margin="5,5,5,5" Grid.Row="2" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="仓 库" Grid.Column="1" HorizontalAlignment="Center" Margin="5,5,5,5" Grid.Row="3" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox Name="UserName" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="5,5,5,5" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
-        <TextBox Name="PassWord" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="5,5,5,5" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
-        <ComboBox Grid.Column="2" HorizontalAlignment="Left" Margin="5,5,5,5" Grid.Row="3" VerticalAlignment="Top" Height="40" Width="200"/>
+        <TextBox Name="UserName" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="5,5,5,5" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" FontSize="20"/>
+        <TextBox Name="PassWord" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="5,5,5,5" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" FontSize="20"/>
+        <ComboBox  Name="Plant" Grid.Column="2" HorizontalAlignment="Left" Margin="5,5,5,5" Grid.Row="3" VerticalAlignment="Top" Height="40" Width="200" FontSize="20"/>
         <Button Content="登 录" Grid.Column="2" HorizontalAlignment="Left" Margin="20,20,5,5" Grid.Row="4" VerticalAlignment="Top" Height="40" Width="75" FontSize="20"/>
     </Grid>
 </Window>

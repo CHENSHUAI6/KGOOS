@@ -23,5 +23,9 @@ namespace KGOOS.Login
         {
             InitializeComponent();
         }
+        public  getPlant()
+        {
+
+        }
     }
 }
