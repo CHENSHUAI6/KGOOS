@@ -22,8 +22,9 @@ namespace KGOOS.Login
         public Window1()
         {
             InitializeComponent();
+            Plant.ItemsSource = typeof(Colors).GetProperties();
         }
-        public  getPlant()
+        public void getPlant()
         {
 
         }
