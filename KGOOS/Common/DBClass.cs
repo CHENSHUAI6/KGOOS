@@ -13,7 +13,7 @@ namespace KGOOS.Common
     /// </summary>
     internal  class dbConn
     {
-        public static string Database = "KGOOS";
+        public static string Database = "Db_Kgoos";
         public static string Server = ".";
         public static string Uid = "sa";
         public static string Pwd = "Aa123456";
